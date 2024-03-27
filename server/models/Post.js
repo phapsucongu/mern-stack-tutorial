@@ -21,4 +21,4 @@ const PostSchema = new Schema({
         ref: 'users'
     }
 });
-mongoose.exports = Post = mongoose.model('post', PostSchema);
+module.exports = mongoose.model('Post', PostSchema);
